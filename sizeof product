@@ -1,0 +1,35 @@
+
+INPUT1
+#include<iostream>
+using namespace std;
+
+int main(){
+cout<<"Size of char:"<<sizeof(char)<<"btye"<<endl;
+cout<<"Size of int:"<<sizeof(int)<<"byte"<<endl;
+cout<<"Size of float:"<<sizeof(float)<<"byte"<<endl;
+cout<<"Size of double:"<<sizeof(double)<<"byte"<<endl;
+return 0;
+}
+OUTPUT1
+Size of char:1btye
+Size of int:4byte
+Size of float:4byte
+Size of double:8byte
+
+
+INPUT2
+#include <iostream>
+using namespace std;
+
+int main() {
+   float a,b,product;
+   cout<<"Enter two numbers: ";
+   cin>>a>>b;
+   product=a*b;
+   cout<<"product:"<<product;
+
+    return 0;
+}
+OUTPUT2
+Enter two numbers:3.4 5.5
+prouduct:18.7
